@@ -63,7 +63,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(ProjectDir)$(OutDir)$(TargetFileName)&quot; &quot;C:\Users\Steven\Documents\Unity Projects\Ittle Dew (NASB CC)\Assets\SDK&quot; /Y&#xD;&#xA;xcopy &quot;$(ProjectDir)$(OutDir)$(TargetFileName)&quot; &quot;C:\Users\Steven\Documents\Unity Projects\Thwomp (NASB CC)\Assets\SDK&quot; /Y" />
+    <Exec Command="xcopy &quot;$(ProjectDir)$(OutDir)$(TargetFileName)&quot; &quot;C:\Users\Steven\Documents\Unity Projects\Ittle Dew (NASB CC)\Assets\SDK&quot; /Y&#xD;&#xA;xcopy &quot;$(ProjectDir)$(OutDir)$(TargetFileName)&quot; &quot;C:\Users\Steven\Documents\Unity Projects\Thwomp (NASB CC)\Assets\SDK&quot; /Y&#xD;&#xA;xcopy &quot;$(ProjectDir)$(OutDir)$(TargetFileName)&quot; &quot;C:\Users\Steven\source\repos\NASB Custom Characters\NASB Character Template\Assets\SDK&quot; /Y" />
   </Target>
 
 </Project>
