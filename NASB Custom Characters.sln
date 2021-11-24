@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Character Editor Plugin", "Custom Character Editor Plugin\Custom Character Editor Plugin.csproj", "{D5C5129A-1CEA-47D1-8983-0A34F82301DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Character Editor Plugin", "Editor Plugin\Custom Character Editor Plugin.csproj", "{D5C5129A-1CEA-47D1-8983-0A34F82301DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCharacterLoader", "Loader\CustomCharacterLoader.csproj", "{48411732-F216-4D93-8DE1-73B3D42A9258}"
 EndProject
