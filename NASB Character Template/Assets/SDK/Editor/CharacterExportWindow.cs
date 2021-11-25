@@ -124,7 +124,7 @@ public class CharacterExportWindow : EditorWindow
     {
         so.Update();
 
-        GUILayout.Space(10);
+        GUILayout.Space(5);
 
         scrollPosition = GUILayout.BeginScrollView(scrollPosition);
 
@@ -133,7 +133,7 @@ public class CharacterExportWindow : EditorWindow
         EditorGUILayout.PropertyField(propAuthor);
         GUILayout.EndVertical();
 
-        GUILayout.Space(10);
+        GUILayout.Space(5);
 
         GUILayout.BeginVertical("Prefabs", "window");
         EditorGUILayout.PropertyField(propCharacterPrefab);
@@ -141,7 +141,7 @@ public class CharacterExportWindow : EditorWindow
         EditorGUILayout.PropertyField(propCharacterSkin);
         GUILayout.EndVertical();
 
-        GUILayout.Space(10);
+        GUILayout.Space(5);
 
         GUILayout.BeginVertical("Portraits", "window");
         EditorGUILayout.PropertyField(propSmallPortrait);
@@ -149,7 +149,7 @@ public class CharacterExportWindow : EditorWindow
         EditorGUILayout.PropertyField(propLargePortrait);
         GUILayout.EndVertical();
 
-        GUILayout.Space(10);
+        GUILayout.Space(5);
 
         GUILayout.BeginVertical("Backgrounds", "window");
         EditorGUILayout.PropertyField(propCssBackground, new GUIContent("CSS Background"));
@@ -159,21 +159,21 @@ public class CharacterExportWindow : EditorWindow
 
         GUILayout.EndScrollView();
 
-        GUILayout.BeginHorizontal();
+        //GUILayout.BeginHorizontal();
 
-        GUI.backgroundColor = Color.red;
-        if (GUILayout.Button("Clear"))
-        {
-            Clear();
-        }
+        //GUI.backgroundColor = Color.red;
+        //if (GUILayout.Button("Clear"))
+        //{
+        //    Clear();
+        //}
 
-        GUI.backgroundColor = Color.yellow;
-        if (GUILayout.Button("Reload"))
-        {
-            Load();
-        }
+        //GUI.backgroundColor = Color.yellow;
+        //if (GUILayout.Button("Reload"))
+        //{
+        //    Load();
+        //}
 
-        GUILayout.EndHorizontal();
+        //GUILayout.EndHorizontal();
 
         GUILayout.Space(3);
 
@@ -240,6 +240,8 @@ public class CharacterExportWindow : EditorWindow
             valid = false;
             Repaint();
         }
+
+        Save();
     }
 
 

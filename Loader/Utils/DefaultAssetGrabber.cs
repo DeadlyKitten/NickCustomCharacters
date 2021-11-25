@@ -19,6 +19,8 @@ namespace Loader.Utils
         public static AgentDataLayer Data_launchableBase;
         public static AgentDataLayer Data_characterBase;
 
+        public static AtkPropBank Atk_characterBase;
+
         public static GameFXBank FX_common;
         public static GameFXBank FX_characterBase;
 
@@ -55,6 +57,11 @@ namespace Loader.Utils
             Data_grabbableBase = dataLayers[1];
             Data_launchableBase = dataLayers[2];
             Data_characterBase = dataLayers[3];
+
+            agent.TryGetAttack(out var attack);
+            var atkLayers = attack.GetField<GameAgentAttack, AtkPropBank[]>("atkPropLayers");
+
+            Atk_characterBase = atkLayers[0];
 
             agent.TryGetFX(out var fx);
             var fxLayers = fx.fx.GetField<FXHandler, GameFXBank[]>("spawnFXLayers");

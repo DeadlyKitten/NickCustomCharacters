@@ -57,77 +57,77 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SDK\Data\ScriptableObjects\MVMovesetData.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentReady.cs" />
-    <Compile Include="Assets\SDK\Data\FX\TwRotFX.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameFXBank.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentData.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameAgentSFX.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameFX.cs" />
-    <Compile Include="Assets\SDK\Data\FX\TwPosFX.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBank.cs" />
     <Compile Include="Assets\SDK\Data\GameAgent\GameAgentAnimation.cs" />
-    <Compile Include="Assets\SDK\Data\Update\TrackTransformMB.cs" />
-    <Compile Include="Assets\SDK\Data\Switch\SkinObjectSwitch.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\WallJumpCC.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgent.cs" />
-    <Compile Include="Assets\SDK\Data\FX\SwordTrailOffsetting.cs" />
-    <Compile Include="Assets\SDK\Data\FX\SwordTrailFX.cs" />
-    <Compile Include="Assets\SDK\Data\ScriptableObjects\CPUMovesetData.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\LaunchCC.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameFX.cs" />
     <Compile Include="Assets\SDK\Data\Switch\SkinTextureSwitch.cs" />
     <Compile Include="Assets\SDK\Data\GameAgent\GameAgentColors.cs" />
-    <Compile Include="Assets\SDK\Data\FX\TwScaleFX.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameAgentFX.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentAttack.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\CombatFate.cs" />
-    <Compile Include="Assets\SDK\Data\FX\EliasEase.cs" />
-    <Compile Include="Assets\SDK\Data\Switch\SkinMeshSwitch.cs" />
-    <Compile Include="Assets\SDK\Data\ScriptableObjects\AgentDataLayer.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCPU.cs" />
-    <Compile Include="Assets\SDK\Data\Update\UpdateMe.cs" />
-    <Compile Include="Assets\SDK\Data\ScriptableObjects\AtkProp.cs" />
-    <Compile Include="Assets\SDK\Data\FX\ParticleArrayFX.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\StageLine.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCombatIds.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentHurtset.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCustomCalls.cs" />
-    <Compile Include="Assets\SDK\Data\ScriptableObjects\AtkPropBank.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\BlockCC.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentMovement.cs" />
-    <Compile Include="Assets\SDK\Data\FX\MaterialTinter.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentControls.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentStandardInput.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\CustomCallMB.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBank.cs" />
+    <Compile Include="Assets\SDK\Data\Switch\SkinObjectSwitch.cs" />
     <Compile Include="Assets\SDK\Data\GameAgent\AttachedGameAgent.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBankBank.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\AirDashCC.cs" />
+    <Compile Include="Assets\SDK\Data\FX\SwordTrailFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentAttack.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCustomCalls.cs" />
     <Compile Include="Assets\SDK\Data\Misc\SkinData.cs" />
     <Compile Include="Assets\SDK\Data\CustomCalls\GameInstance.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\LoadedSkin.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\TechingCC.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCameraInfo.cs" />
-    <Compile Include="Assets\SDK\Data\FX\TwColorFX.cs" />
-    <Compile Include="Assets\SDK\Data\Update\ShadowTracker.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentStateMachine.cs" />
-    <Compile Include="Assets\SDK\Data\FX\ProxyFX.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\AirDashCC.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCombat.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\RendererActiveProxy.cs" />
-    <Compile Include="Assets\SDK\Data\Update\TrackTransform.cs" />
-    <Compile Include="Assets\SDK\Data\CustomCalls\CustomCallMB.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentSkins.cs" />
-    <Compile Include="Assets\SDK\Data\FX\SFXTimelineBank.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\LoadedAgent.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameSFXBank.cs" />
     <Compile Include="Assets\SDK\Data\FX\FXHandler.cs" />
-    <Compile Include="Assets\SDK\Data\FX\SwordTrailOffset.cs" />
-    <Compile Include="Assets\SDK\Data\ScriptableObjects\AgentColorLayer.cs" />
     <Compile Include="Assets\SDK\Data\CustomCalls\ProjectileCC.cs" />
-    <Compile Include="Assets\SDK\Data\FX\TweenFX.cs" />
-    <Compile Include="Assets\SDK\Data\FX\GameSFX.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentJumps.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentGrabs.cs" />
-    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBones.cs" />
-    <Compile Include="Assets\SDK\Data\Misc\GameStage.cs" />
     <Compile Include="Assets\SDK\Data\FX\RandomZRotFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgent.cs" />
+    <Compile Include="Assets\SDK\Data\ScriptableObjects\CPUMovesetData.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentHurtset.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentStandardInput.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBankBank.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\LoadedSkin.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameSFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCombatIds.cs" />
+    <Compile Include="Assets\SDK\Data\FX\SFXTimelineBank.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentBones.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameFXBank.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameAgentFX.cs" />
+    <Compile Include="Assets\SDK\Data\Update\UpdateMe.cs" />
+    <Compile Include="Assets\SDK\Data\Update\TrackTransform.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\LoadedAgent.cs" />
+    <Compile Include="Assets\SDK\Data\ScriptableObjects\AgentColorLayer.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentJumps.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\BlockCC.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\TechingCC.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameSFXBank.cs" />
+    <Compile Include="Assets\SDK\Data\FX\TweenFX.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\LaunchCC.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCombat.cs" />
+    <Compile Include="Assets\SDK\Data\FX\TwPosFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCPU.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentMovement.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentGrabs.cs" />
+    <Compile Include="Assets\SDK\Data\FX\MaterialTinter.cs" />
+    <Compile Include="Assets\SDK\Data\Update\ShadowTracker.cs" />
+    <Compile Include="Assets\SDK\Data\FX\TwColorFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentSkins.cs" />
+    <Compile Include="Assets\SDK\Data\FX\SwordTrailOffset.cs" />
+    <Compile Include="Assets\SDK\Data\Update\TrackTransformMB.cs" />
+    <Compile Include="Assets\SDK\Data\CustomCalls\WallJumpCC.cs" />
+    <Compile Include="Assets\SDK\Data\Switch\SkinMeshSwitch.cs" />
+    <Compile Include="Assets\SDK\Data\ScriptableObjects\AtkPropBank.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\RendererActiveProxy.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\GameStage.cs" />
+    <Compile Include="Assets\SDK\Data\FX\TwRotFX.cs" />
+    <Compile Include="Assets\SDK\Data\FX\EliasEase.cs" />
+    <Compile Include="Assets\SDK\Data\ScriptableObjects\AtkProp.cs" />
+    <Compile Include="Assets\SDK\Data\FX\ProxyFX.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\CombatFate.cs" />
+    <Compile Include="Assets\SDK\Data\Misc\StageLine.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentData.cs" />
+    <Compile Include="Assets\SDK\Data\FX\GameAgentSFX.cs" />
+    <Compile Include="Assets\SDK\Data\FX\SwordTrailOffsetting.cs" />
+    <Compile Include="Assets\SDK\Data\FX\TwScaleFX.cs" />
+    <Compile Include="Assets\SDK\Data\ScriptableObjects\AgentDataLayer.cs" />
+    <Compile Include="Assets\SDK\Data\FX\ParticleArrayFX.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentControls.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentStateMachine.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentReady.cs" />
+    <Compile Include="Assets\SDK\Data\GameAgent\GameAgentCameraInfo.cs" />
     <Compile Include="Assets\SDK\Data\CustomCalls\IdleCC.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -359,11 +359,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Unity\2020.3.15f2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="CustomCharacterLoader">
       <HintPath>Assets\SDK\CustomCharacterLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2020.3.15f2\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

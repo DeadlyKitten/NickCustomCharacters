@@ -16,6 +16,9 @@ namespace Loader.Utils
         public bool Data_launchableBase = true;
         public bool Data_characterBase = true;
 
+        [Header("Atk Prop Layers")]
+        public bool Atk_characterBase = true;
+
         [Header("Spawn FX Layers")]
         public bool FX_common = true;
         public bool FX_characterBase = true;

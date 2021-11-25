@@ -265,9 +265,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameUniqueIdentifier: char_template
-  agentTags: []
+  agentTags:
+  - character
   agentSorting: 0
-  isPlayerCharacter: 0
+  isPlayerCharacter: 1
   isItem: 0
   spawnAgents:
     banks: []
@@ -306,7 +307,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateLayers: []
-  tagsDefault: []
+  tagsDefault:
+  - character
 --- !u!114 &574016179846849865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardInputTrigger:
-    SpecialMid: SpecialProjectile
+    SpecialMid: SpecialMid
     SpecialUp: SpecialUp
     SpecialDown: SpecialDown
     AttackMid: AttackMid
@@ -459,28 +461,28 @@ MonoBehaviour:
   config:
     increaseMoveDT: 0
     increaseMoveDTFalloff: 0
-    allowCtrl: 0
+    allowCtrl: 1
     rootPosReset: 1
     forceNextFloorCheck: 0
-    checkFloorFromMid: 1
+    checkFloorFromMid: 0
     extendFloorCheckToMid: 0
     checkFloorThickness: 0.75
     fallSpeed: 30
     fallSpeedMultiplier: 1
-    gravity: 100
+    gravity: 110
     antigravity: 100
     floorFriction: 1
-    floorAcc: 100
-    floorDec: 100
-    floorBrake: 100
-    floorSpeed: 30
-    floorDecay: 100
+    floorAcc: 120
+    floorDec: 200
+    floorBrake: 80
+    floorSpeed: 19
+    floorDecay: 80
     airFriction: 1
-    airAcc: 100
+    airAcc: 80
     airDec: 100
-    airBrake: 100
-    airSpeed: 30
-    airDecay: 100
+    airBrake: 50
+    airSpeed: 16
+    airDecay: 5
     xSpeedMultiplier: 1
     rootMotionMult: {x: 1, y: 1}
     resizeCollision: 1
@@ -489,28 +491,28 @@ MonoBehaviour:
     extendBottom: 0
     bottomCollisionWorldPos: 0
     crowdPushing: 0
-    crowdPushRadius: 1
+    crowdPushRadius: 0.75
     crowdPushWeight: 100
     crowdPushMaxDistPerFrame: 1
     crowdPushingFromLedge: 0
     grabEdge: 0
-    grabEdgeExtendFwd: 1
-    grabEdgeExtendBack: 1
-    grabEdgeExtendUp: 1
+    grabEdgeExtendFwd: 3
+    grabEdgeExtendBack: 3
+    grabEdgeExtendUp: 3.5
     grabEdgeExtendDown: 0
     disableCollision: 0
     disableMovement: 0
     disableSink: 0
   moveconfig:
-    getParented: 0
+    getParented: 1
     leaveEdges: 0
-    passThrough: 0
+    passThrough: 1
     fallThrough: 0
     ignoreMovingStage: 0
     bounce: 0
     stop: 0
     leaveParent: 0
-    inheritParentVel: 0
+    inheritParentVel: 1
     ignoreStageLayer: 2
     leaveEdgeRestrict: 0
     simpleFreeMovement: 0
@@ -575,13 +577,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   config:
-    weight: 0
-    getgrabbed: 0
-    grabinvulnerability: 0
+    weight: 100
+    getgrabbed: 1
+    grabinvulnerability: 10
     blockPush: 0
     blockHoldVertical: 0
     blockHoldHorizontal: 0
-    checkBlastzones: 0
+    checkBlastzones: 1
     checkTopBlastzone: 0
     alwaysLaunch: 0
     preventHitstunTurn: 0
@@ -697,9 +699,9 @@ MonoBehaviour:
     dontIncludeVertical: 0
     centerRadius: 5
     trackLastGrounded: 1
-    addXMovement: 10
+    addXMovement: 0
     addYUpMovement: 0
-    addYDownMovement: 7
+    addYDownMovement: 0
     clampAddYDownByFloor: 0
     addUp: 0
     addDown: 0
@@ -707,7 +709,7 @@ MonoBehaviour:
     addLeft: 0
     includeRespawnPoint: 0
     includeLaunchDestination: 0
-    moveResultsCamToFixedPos: 1
+    moveResultsCamToFixedPos: 0
 --- !u!114 &574016179846849881
 MonoBehaviour:
   m_ObjectHideFlags: 0
